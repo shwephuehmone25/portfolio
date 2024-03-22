@@ -12,6 +12,9 @@ import { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
+let date = new Date();
+let year = date.getFullYear();
+
 const App = () => {
   useEffect(() => {
     Aos.init({
@@ -32,7 +35,7 @@ const App = () => {
       <Contact />
       <footer className="p-3 text-center">
         <h6 className="mb-3">SHWE PHUE HMONE</h6>
-        <p>© All CopyRights Reserved 2022</p>
+        <p>© All CopyRights Reserved {year}</p>
       </footer>
     </div>
   );

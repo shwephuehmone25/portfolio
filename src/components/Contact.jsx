@@ -13,7 +13,7 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-      'YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY'
+      'VITE_EMAIL_SERVICE_ID', 'VITE_EMAIL_TEMPLATE_ID', form.current, 'VITE_EMAIL_USER_KEY'
       )
       .then(
         (result) => {
