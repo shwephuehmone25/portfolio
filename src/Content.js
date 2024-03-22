@@ -21,6 +21,8 @@ import services_logo3 from "./assets/images/Services/logo1.png";
 import project1 from "./assets/images/projects/img1.png";
 import project2 from "./assets/images/projects/img2.png";
 import project3 from "./assets/images/projects/img3.png";
+import project4 from "./assets/images/projects/medium.png";
+import project5 from "./assets/images/projects/tiktok.jpg";
 import person_project from "./assets/images/projects/person.svg";
 import person2 from "./assets/images/projects/person2.svg";
 
@@ -30,12 +32,11 @@ import avatar3 from "./assets/images/Projects/wheel.jpg";
 import avatar4 from "./assets/images/Projects/onlineLearning.png";
 
 import Hireme_person from "./assets/images/Hireme/person.svg";
-import Hireme_person2 from "./assets/images/Hireme/person2.png";
+import Hireme_person2 from "./assets/images/Hireme/person2.svg";
 
 // import icons from react-icons
 import { GrMail } from "react-icons/gr";
 import { MdArrowForward, MdCall } from "react-icons/md";
-import { BsInstagram } from "react-icons/bs";
 import { TbSmartHome } from "react-icons/tb";
 import { BiUser } from "react-icons/bi";
 import { RiServiceLine, RiProjectorLine } from "react-icons/ri";
@@ -66,8 +67,8 @@ export const content = {
   ],
   hero: {
     title: "Web Developer",
-    firstName: "JOHN",
-    LastName: "ALEX",
+    firstName: "SHWE",
+    LastName: "PHUE HMONE",
     btnText: "Hire Me",
     image: Hero_person,
     hero_content: [
@@ -242,9 +243,15 @@ export const content = {
     project_content: [
       {
         title: "Medium Clone Website",
-        image: project1,
+        image: project4,
         description: "",
         ghlink:"https://github.com/shwephuehmone25/Medium_Clone_Backend",
+      },
+      {
+        title: "E-Commerce",
+        image: project3,
+        description: "",
+        ghlink:"https://github.com/shwephuehmone25/E_Commerce_Laravel",
       },
       {
         title: "Share Note",
@@ -260,7 +267,7 @@ export const content = {
       },
       {
         title: "TikTok Clone",
-        image: project3,
+        image: project5,
         description: "",
         ghlink:"https://github.com/shwephuehmone25/one-minute-learn",
       },
