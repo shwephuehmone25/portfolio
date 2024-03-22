@@ -23,8 +23,8 @@ import project2 from "./assets/images/Projects/img2.png";
 import project3 from "./assets/images/Projects/img3.png";
 import project4 from "./assets/images/Projects/medium.png";
 import project5 from "./assets/images/Projects/tiktok.jpg";
-import person_project from "./assets/images/projects/person.svg";
-import person2 from "./assets/images/projects/person2.svg";
+import person_project from "./assets/images/Projects/person.svg";
+import person2 from "./assets/images/Projects/person2.svg";
 
 import avatar1 from "./assets/images/Projects/pos.png";
 import avatar2 from "./assets/images/Projects/e-learning.png";
