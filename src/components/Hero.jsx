@@ -1,6 +1,7 @@
 // import content
 import { useEffect } from "react";
 import { content } from "../Content";
+import Type from "./Type";
 const Hero = () => {
   const { hero } = content;
 
@@ -20,7 +21,18 @@ const Hero = () => {
 
         {/* first col */}
         <div className="pb-16 px-6 pt-5" data-aos="fade-down">
-          <h2>{hero.title}</h2>
+          <div>
+            <h1 style={{ paddingBottom: 15 }} className="heading">
+              Hi There!{" "}
+              <span className="wave" role="img" aria-labelledby="wave">
+                👋🏻
+              </span>
+            </h1>
+            <h2>
+            <Type/>
+            </h2>
+            
+          </div>
           <br />
           <div className="flex justify-end">
             <button className="btn">{hero.btnText}</button>
