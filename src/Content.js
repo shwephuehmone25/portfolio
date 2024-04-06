@@ -23,6 +23,7 @@ import project2 from "./assets/images/Projects/img2.png";
 import project3 from "./assets/images/Projects/img3.png";
 import project4 from "./assets/images/Projects/medium.png";
 import project5 from "./assets/images/Projects/tiktok.jpg";
+import automobile from "./assets/images/Projects/automobile.png";
 import person_project from "./assets/images/Projects/person.svg";
 import person2 from "./assets/images/Projects/person2.svg";
 
@@ -218,6 +219,11 @@ export const content = {
         name: "POS(Point of Sale)",
         img: avatar1,
         demo: "https://saing.bib-mm.com",
+      },
+      {
+        name: "BiB AutoMobile",
+        img: automobile,
+        demo: "https://bib-automobile.com",
       },
       {
         name: "C4RD Myanmar Online Courses",

@@ -18,7 +18,8 @@
     "react-icons": "^4.6.0",
     "react-modal": "^3.16.1",
     "react-vertical-timeline-component": "^3.6.0",
-    "swiper": "^8.4.4"
+    "swiper": "^8.4.4",
+    "typewriter-effect": "^2.21.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.24",
