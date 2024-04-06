@@ -12,7 +12,7 @@ const Services = () => {
         <h2 className="text-3xl font-bold mb-4" data-aos="fade-down">
           {services.title}
         </h2>
-        <h4 className="text-xl mb-8" data-aos="fade-down">
+        <h4 className="subtitle" data-aos="fade-down">
           {services.subtitle}
         </h4>
         <VerticalTimeline>

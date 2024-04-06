@@ -66,7 +66,7 @@ export const content = {
     },
   ],
   hero: {
-    title: "Web Developer",
+    greeting: "Hello, I'm",
     firstName: "SHWE",
     LastName: "PHUE HMONE",
     btnText: "Hire Me",
@@ -132,12 +132,12 @@ export const content = {
         logo: reactjs,
       },
       {
-        name: "My SQL",
+        name: "MySQL",
         // para: "Lorem ipsum text  dummy",
         logo: mysql,
       },
       {
-        name: "Postgresql",
+        name: "PostgreSQL",
         // para: "Lorem ipsum text  dummy",
         logo: postgres,
       },
@@ -278,11 +278,11 @@ export const content = {
     subtitle: "FOR YOUR PROJECTS",
     image1: Hireme_person,
     image2: Hireme_person2,
-    para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+    para: "I'm a full-stack developer with a passion for creating dynamic and engaging websites. I am skilled in both back-end and front-end development. My portfolio, featuring successful projects, highlights my ability to deliver innovative solutions.",
     btnText: "Hire Me",
   },
   Contact: {
-    title: "Contect Me",
+    title: "Contact Me",
     subtitle: "GET IN TOUCH",
     social_media: [
       {
