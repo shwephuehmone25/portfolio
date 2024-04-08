@@ -28,7 +28,7 @@ npm run dev
 + [react-hot-toast](https://react-hot-toast.com/docs)
 + [react icons](https://react-icons.github.io/react-icons/)
 + [react component](https://github.com/stephane-monnot/react-vertical-timeline)
-+ [tailwind badge]
++ [tailwind badge](https://flowbite.com/docs/components/badge)
 
 
 
