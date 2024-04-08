@@ -21,8 +21,10 @@ import services_logo3 from "./assets/images/Services/logo1.png";
 import project1 from "./assets/images/Projects/img1.png";
 import project2 from "./assets/images/Projects/img2.png";
 import project3 from "./assets/images/Projects/img3.png";
-import project4 from "./assets/images/Projects/medium.png";
+import project4 from "./assets/images/Projects/medium.jpg";
 import project5 from "./assets/images/Projects/tiktok.jpg";
+import project6 from "./assets/images/Projects/nuxt.jpg";
+import project7 from "./assets/images/Projects/medium.png";
 import automobile from "./assets/images/Projects/automobile.png";
 import person_project from "./assets/images/Projects/person.svg";
 import person2 from "./assets/images/Projects/person2.svg";
@@ -250,31 +252,44 @@ export const content = {
       {
         title: "Medium Clone Website",
         image: project4,
-        description: "",
+        description: "This is a robust blogging platform developed using Laravel, offering features like article writing, commenting, and user profiles, closely mirroring the Medium experience.",
         ghlink:"https://github.com/shwephuehmone25/Medium_Clone_Backend",
       },
       {
         title: "E-Commerce",
         image: project3,
-        description: "",
+        description: "This website is an online store where businesses sell products and services. Shoppers can browse, buy, and pay online, offering convenience and a global market for businesses.",
         ghlink:"https://github.com/shwephuehmone25/E_Commerce_Laravel",
       },
       {
-        title: "Share Note",
+        title: "CMS",
+        image: project6,
+        description: "This content management system, developed with Nuxt.js for the frontend and Laravel for the backend, offers a seamless, modern web experience for managing and publishing content efficiently.",
+        ghlink:"https://github.com/shwephuehmone25/laravel-with-nuxt-js",
+      },
+      {
+        title: "Blog",
+        image: project7,
+        description: "This blog management system, inspired by Medium, is developed using Alpine.js for dynamic interactivity and Laravel for robust backend functionality, offering a sleek platform for writers and readers alike.",
+        ghlink:"https://github.com/shwephuehmone25/Laravel-with-Alpine-js",
+      },
+      {
+        title: "Sh@re N0te",
         image: project1,
-        description: "",
+        description: "This is a web application mirroring Medium's essential features, crafted with React for a smooth, interactive user interface, and Express for robust backend functionality. It supports article navigation, post creation, and user interactions, offering a comprehensive blogging experience. This project serves as an excellent example for developers interested in full-stack application development, combining modern technologies to replicate a popular content-sharing platform's look and feel.",
         ghlink:"https://github.com/shwephuehmone25/dnote-api-node-server",
+        ghlink2:"https://github.com/shwephuehmone25/dnote-app-react-client",
       },
       {
         title: "Liveroom Chat",
         image: project2,
-        description: "",
+        description: "This is a real-time messaging application built with React for the client-side and Node.js for the server-side, leveraging Socket.IO for instant, bidirectional communication between users and the server. This setup ensures a seamless and efficient chat experience.",
         ghlink:"https://github.com/shwephuehmone25/liveroom-chatapp",
       },
       {
-        title: "TikTok Clone",
+        title: "One Minute Learn",
         image: project5,
-        description: "",
+        description: "This TikTok clone app, designed for educational purposes, allows users to learn various topics through engaging one-minute videos, fostering quick and interactive learning experiences.",
         ghlink:"https://github.com/shwephuehmone25/one-minute-learn",
       },
     ],

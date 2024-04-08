@@ -1,15 +1,14 @@
+import React, { useState } from 'react';
 import { content } from "../Content";
-// Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-
-// Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
-
 import { Pagination } from "swiper";
 
 const Projects = () => {
   const { Projects } = content;
+  const [readMoreIndex, setReadMoreIndex] = useState(null); 
+
   return (
     <section className="bg-bg_light_primary" id="projects">
       <div className="md:container px-5 pt-14 min-h-screen flex flex-col justify-between">
@@ -47,7 +46,33 @@ const Projects = () => {
                 <img src={content.image} alt="..." />
                 <div className="flex flex-col gap-1 mt-2">
                   <h5 className="font-bold font-Poppins">{content.title}</h5>
-                  <button className="font-bold text-gray self-end">
+                  {readMoreIndex === i && ( 
+                    <>
+                      <p>{content.description}</p>
+                      {content.ghlink !== "#" && !content.ghlink2 && (
+                        <a href={content.ghlink} target="_blank" rel="noopener noreferrer" className="font-bold text-gray self-end">
+                          View on GitHub
+                        </a>
+                      )}
+                      {content.ghlink !== "#" && content.ghlink2 && (
+                        <>
+                          <a href={content.ghlink} target="_blank" rel="noopener noreferrer" className="font-bold text-gray self-end">
+                            View Server on GitHub
+                          </a>
+                          <a href={content.ghlink2} target="_blank" rel="noopener noreferrer" className="font-bold text-gray self-end">
+                            View Client on GitHub
+                          </a>
+                        </>
+                      )}
+                      {content.ghlink === "#" && !content.ghlink2 && (
+                        <span>Link Not Available</span>
+                      )}
+                    </>
+                  )}
+                  <button
+                    onClick={() => setReadMoreIndex(i)} 
+                    className="font-bold text-gray self-end"
+                  >
                     READ MORE
                   </button>
                 </div>
