@@ -13,7 +13,7 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-      'VITE_EMAIL_SERVICE_ID', 'VITE_EMAIL_TEMPLATE_ID', form.current, 'VITE_EMAIL_USER_KEY'
+      'VITE_EMAIL_SERVICE_ID', 'VITE_EMAIL_TEMPLATE_ID', form.current, 'VITE_EMAIL_USER_ID'
       )
       .then(
         (result) => {
@@ -60,7 +60,7 @@ const Contact = () => {
               type="email"
               name="user_email"
               pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$"
-              placeholder="Email Id"
+              placeholder="Email Address"
               required
               className="border border-slate-600 p-3 rounded"
             />
