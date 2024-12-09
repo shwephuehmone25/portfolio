@@ -240,7 +240,7 @@ export const content = {
       {
         name: "E Learning Platform",
         img: avatar4,
-        demo: "https://saungpokki.ilbc.edu.mm",
+        demo: "https://www.saungpokki.com.sg",
       },
     ],
   },
