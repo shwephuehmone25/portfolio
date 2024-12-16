@@ -224,7 +224,7 @@ export const content = {
         demo: "https://saing.bib-mm.com",
       },
       {
-        name: "BiB AutoMobile",
+        name: "BIB AutoMobile",
         img: automobile,
         description: "Created a dynamic website for Bib-Automobile.com, showcasing a wide range of automobiles with advanced search and filtering features. The platform includes detailed vehicle listings, user-friendly navigation, and inquiry forms, providing a seamless browsing experience. Designed to enhance customer engagement and support effective online marketing for automobile sales.",
         demo: "https://bib-automobile.com",
