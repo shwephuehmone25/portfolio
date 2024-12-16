@@ -2,13 +2,22 @@ import { content } from "../Content";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
-
 import { Pagination } from "swiper";
 import { useState } from "react";
 
 const Testimonials = () => {
   const { Testimonials } = content;
   const [activeIndex, setActiveIndex] = useState(0);
+  const [expandedIndex, setExpandedIndex] = useState(-1);
+
+  const toggleExpand = (index) => {
+    if (expandedIndex === index) {
+      setExpandedIndex(-1);
+    } else {
+      setExpandedIndex(index);
+    }
+  };
+
   return (
     <section>
       <div className="md:container px-5 pt-14">
@@ -29,13 +38,11 @@ const Testimonials = () => {
           spaceBetween={40}
           slidesPerView={1.7}
           onSlideChange={(e) => {
-            console.log(e.realIndex);
             setActiveIndex(e.realIndex);
           }}
           modules={[Pagination]}
           className="md:h-96 h-[40rem] max-w-3xl"
         >
-          
           {Testimonials.testimonials_content.map((content, i) => (
             <SwiperSlide key={i}>
               <div
@@ -48,9 +55,28 @@ const Testimonials = () => {
                 <div>
                   <h2 className="text-lg font-medium">{content.name}</h2>
                   <br />
-                  {/* Check if demo value is "#" indicating no link, else render as a link */}
+                  <p>
+                    {content.description
+                      ? expandedIndex === i
+                        ? content.description
+                        : `${content.description.slice(0, 100)}...`
+                      : "No description available."}
+                  </p>
+
+                  <button
+                    onClick={() => toggleExpand(i)}
+                    className="text-blue-500 hover:underline mt-2"
+                  >
+                    {expandedIndex === i ? "Read Less" : "Read More"}
+                  </button>
+                  <br />
                   {content.demo !== "#" ? (
-                    <a href={content.demo} target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">
+                    <a
+                      href={content.demo}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-blue-500 hover:underline"
+                    >
                       View Project
                     </a>
                   ) : (

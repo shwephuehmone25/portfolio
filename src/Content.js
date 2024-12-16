@@ -220,26 +220,30 @@ export const content = {
       {
         name: "POS(Point of Sale)",
         img: avatar1,
+        description: "Developed a user-friendly POS system for Saing.bib-mm.com, streamlining sales, inventory, and customer management. Features include real-time stock tracking, secure payment integration, and detailed reporting for business insights. The system enhances efficiency and accuracy, ensuring seamless operations for retail businesses of all sizes.",
         demo: "https://saing.bib-mm.com",
       },
       {
         name: "BiB AutoMobile",
         img: automobile,
+        description: "Created a dynamic website for Bib-Automobile.com, showcasing a wide range of automobiles with advanced search and filtering features. The platform includes detailed vehicle listings, user-friendly navigation, and inquiry forms, providing a seamless browsing experience. Designed to enhance customer engagement and support effective online marketing for automobile sales.",
         demo: "https://bib-automobile.com",
       },
       {
         name: "C4RD Myanmar Online Courses",
         img: avatar2,
+        description: "Designed and developed a customizable CMS for C4RD Myanmar, a nonprofit organization committed to promoting education and empowering young people. The platform provides an intuitive interface for managing content, users, and settings, ensuring smooth and efficient management for volunteers, staff, and other staff members. The CMS also supports real-time updates, customizable email templates, and multi-language support, providing a seamless user experience for volunteers",
         demo: "https://www.c4rdmyanmar.org",
       },
-      {
-        name: "Wheel of Fortune",
-        img: avatar3,
-        demo: "#",
-      },
+      // {
+      //   name: "Wheel of Fortune",
+      //   img: avatar3,
+      //   demo: "#",
+      // },
       {
         name: "E Learning Platform",
         img: avatar4,
+        description: "A scalable e-learning platform backend using NestJS, featuring user management, real-time course sessions with Google Meet integration, secure payment systems, and administrative tools. The platform supports class scheduling, progress tracking, and dynamic course allocation, ensuring seamless interactions for students, teachers, and admins while maintaining performance and data security.",
         demo: "https://www.saungpokki.com.sg",
       },
     ],
